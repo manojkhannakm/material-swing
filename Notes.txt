@@ -1,0 +1,72 @@
+Animation
+=========
+Motion - Material motion, Duration & easing, Movement
+
+Style
+=====
+Icons - Motion - Creative customization, Style - Icons
+Typography - Style - Typography, Writing
+Layout - Layout - Metrics & keylines, Structure
+
+MaterialToolbar
+===============
+Layout - Structure
+Components - Toolbars
+Patterns - Scrolling techniques
+
+MaterialFlatButton, MaterialRaisedButton, MaterialToggleButton,
+MaterialIconButton, MaterialActionButton, MaterialDropdownButton
+================================================================
+Components - Buttons
+
+MaterialCard
+============
+Material design - Material properties
+Motion - Material motion, Transforming material, Choreography
+
+To Do
+=====
+Components
+Patterns
+
+========================================================================================================================
+
+To Do
+=====
+Create MaterialLayout(baseline from ui), Interpolators(from android)
+layout - use x and y if horizontal and vertical constraint missing
+gesture, transition anims
+panel layering using z
+create 3 types of dialog ownerless, owner - modal, modalless
+button types - dense, compact
+check all effects and listeners, add pulse effect, ripple for focus instead of overlay
+window - add individual enable, addlistener, invoke methods for all buttons,
+        add theme(use comp listener on children to listen change of parent and theme objs)
+change all images to black
+
+Note
+====
+properties to change for new materials in constructor - z, width, height, color, shape, content, margin, padding
+
+Done
+====
+Properties - x, y, z, width, height, translationX, translationY, translationZ,
+        pivotX, pivotY, scaleX, scaleY, rotation, alpha, color, shape
+disable border painting
+queue repaint(materialPaint(), materialRepaint())
+shadow show/hide or enable
+shadow type(ambient, key, both)
+property - gettotarget, reflection
+effects should be on individual components
+xyz offsets are not added to xyz, offsets are used during layout
+check all animations start and end fractions
+check rounding for animation smoothness
+check shadow, overlay, ripple interpolators
+* dont use swing's ui, x, y, width, height, foreground, background, border, font, location, size, bounds, preferredsize, minimumsize, maximumsize
+* improve uidelegate contains and preferredsize
+/ 2,  improve all materialutils and mathutils
+make sure properties are applying to children
+add more renderinghints if needed
+fix order of painting
+ripple hide using x and y (ripplekey(x, y) and simpleripple to ripplevalue)
+understand each ui class, change ui to basic for all components (baseline)
